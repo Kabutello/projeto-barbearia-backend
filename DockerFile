@@ -1,4 +1,6 @@
-FROM node:24.0 
+FROM node:24.0
+
+COPY . .
 
 RUN npm i
 
