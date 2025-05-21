@@ -1,0 +1,11 @@
+POST http://localhost:3000/services
+Content-Type: application/json
+
+{
+    "name": "teste1",
+    "price": 32.00,
+    "duration": 60
+}
+
+###
+GET http://localhost:3000/services
