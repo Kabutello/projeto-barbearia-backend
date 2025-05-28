@@ -1,9 +1,7 @@
 import { Sequelize } from "sequelize";
+import config from "./config.js";
 
-const database = new Sequelize({
-    dialect: 'sqlite',
-    storage: 'database.db'
-});
+const database = new Sequelize(config.production);
 
 try {
     await database.authenticate()

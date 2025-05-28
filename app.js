@@ -1,6 +1,7 @@
 import express from 'express'
 
-import database from './db.js'
+import './models/associations.js'
+import database from './db/database.js'
 import routes from './routes.js'
 
 
