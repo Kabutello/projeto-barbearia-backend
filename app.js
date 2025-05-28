@@ -5,6 +5,8 @@ import database from './db/database.js'
 import routes from './routes.js'
 
 
+
+
 database.sync()
 
 const app = express()
