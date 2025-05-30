@@ -1,11 +1,8 @@
-POST http://localhost:3000/services
+POST http://10.21.144.202:3000/schedules
 Content-Type: application/json
 
 {
-    "name": "teste1",
-    "price": 32.00,
-    "duration": 60
+  "datetime": "2025-07-18T15:40:00.000Z",
+  "userId": 1,
+  "serviceId": 1
 }
-
-###
-GET http://localhost:3000/services

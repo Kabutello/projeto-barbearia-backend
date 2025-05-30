@@ -12,7 +12,7 @@ const User = database.define('users', {
 		allowNull: false
     },
     telephone:{
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING,
 		allowNull: false
     },
     password: {

@@ -18,10 +18,10 @@ router.get('/services/:id', ServiceController.getService);
 router.put('/services/:id', ServiceController.updateService);
 router.delete('/services/:id', ServiceController.deleteService);
 
-router.post('/schedule', ScheduleController.createSchedule);
-router.post('/schedule', ScheduleController.getSchedules);
-router.post('/schedule/:id', ScheduleController.getSchedule);
-router.post('/schedule/:id', ScheduleController.updateSchedule);
-router.post('/schedule/:id', ScheduleController.deleteSchedule);
+router.post('/schedules', ScheduleController.createSchedule);
+router.get('/schedules', ScheduleController.getSchedules);
+router.get('/schedules/:id', ScheduleController.getSchedule);
+router.put('/schedules/:id', ScheduleController.updateSchedule);
+router.delete('/schedules/:id', ScheduleController.deleteSchedule);
 
 export default router

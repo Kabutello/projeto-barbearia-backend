@@ -1,7 +1,7 @@
 import { Sequelize } from "sequelize";
 import config from "./config.js";
 
-const database = new Sequelize(config.production);
+const database = new Sequelize(config.development)
 
 try {
     await database.authenticate()
